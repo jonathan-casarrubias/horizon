@@ -10,7 +10,9 @@
   "scripts": {
     "lint": "eslint src test",
     "test": "mocha test --timeout 10000",
-    "coverage": "istanbul cover _mocha test"
+    "coverage": "istanbul cover _mocha test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "RethinkDB",
   "license": "MIT",
@@ -31,7 +33,8 @@
     "jsonwebtoken": "^5.5.4",
     "mime-types": "^2.0.4",
     "rethinkdb": "^2.1.1",
-    "toml": "^2.3.0"
+    "toml": "^2.3.0",
+    "snyk": "^1.96.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -45,5 +48,6 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "snyk": true
 }
