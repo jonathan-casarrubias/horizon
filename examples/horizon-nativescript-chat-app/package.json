@@ -13,7 +13,7 @@
 		}
 	},
 	"dependencies": {
-		"@horizon/client": "^1.0.1",
+		"@horizon/client": "^2.0.0",
 		"moment": "^2.13.0",
 		"nativescript-websockets": "1.2.1",
 		"tns-core-modules": "2.0.1"
