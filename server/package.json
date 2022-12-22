@@ -27,7 +27,7 @@
     "cookie": "^0.2.3",
     "engine.io": "^1.6.9",
     "joi": "^8.0.4",
-    "jsonwebtoken": "^5.5.4",
+    "jsonwebtoken": "^9.0.0",
     "mime-types": "^2.0.4",
     "oauth": "^0.9.14",
     "pem": "^1.8.1",
